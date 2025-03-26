@@ -1,0 +1,59 @@
+.nav-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 20rem;
+  background-image: url("../assets/puerto-rican.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  h1 {
+    color: red;
+    text-shadow: 2px 2px 2px black;
+  }
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 50vw;
+  a {
+    color: blue;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px white;
+  }
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center */
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.main-text {
+  text-align: center;
+  width: 80vw;
+}
+
+.bottom {
+  margin-top: 5rem;
+  aside {
+    padding: 1rem;
+  }
+}
+.main-text-2 {
+  text-align: center;
+  width: 50vw;
+}
+
+footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
