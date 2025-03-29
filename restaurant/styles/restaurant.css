@@ -13,6 +13,9 @@
     text-shadow: 2px 2px 2px black;
   }
 }
+a {
+  text-decoration: none;
+}
 
 .nav-links {
   display: flex;
@@ -25,6 +28,12 @@
     font-weight: 700;
     text-shadow: 2px 2px 2px white;
   }
+}
+
+.active {
+  background-color: rgba(255, 0, 0, 0.4);
+
+  border-radius: 50%;
 }
 
 body {

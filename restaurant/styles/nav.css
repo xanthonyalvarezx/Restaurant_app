@@ -1,4 +1,4 @@
-.current-page {
+.active {
   color: red;
-  text-shadow: 2px, 2px, black;
+  text-shadow: black;
 }

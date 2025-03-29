@@ -8,6 +8,7 @@ include '../components/header.php'
 
 <body>
     <?php
+    $activeStyle = './styles/nav.css';
     include '../components/navbar.php'
     ?>
     <main>
